@@ -10,5 +10,14 @@
 
 ![Montage](LaserCommunicator_bb.png )
 
+## Tension d'alimentation du laser
 
+Avec une tension d'alimentation $V_{cc}$ et une tension de diode laser $V_f$ de 3V la tension aux bornes de la résistance réductrice est de $(V_{cc}-V_f)$V et sa valeur est calculée par $R= \frac{(V_{cc}-V_f)}{I_f}$ soit $R= \frac{(V_{cc}-3)}{0,04}$ ...
+
+## Choisissant une résistance pour un LDR: formule Axel Benz
+![Montage](ldr_circuit.png )
+
+Une façon de calculer une résistance appropriée est d'utiliser ce qu'on appelle la formule Axel Benz, qui est que la résistance doit être la racine carrée des résistances de la photorésistance minimum et maximum multiplié ensemble.
+
+$$ R_{ref}= \sqrt{R_{min} * R_{max}}$$
 
