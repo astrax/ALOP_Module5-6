@@ -19,5 +19,6 @@ Avec une tension d'alimentation $V_{cc}$ et une tension de diode laser $V_f$ de 
 
 Une façon de calculer une résistance appropriée est d'utiliser ce qu'on appelle la formule Axel Benz, qui est que la résistance doit être la racine carrée des résistances de la photorésistance minimum et maximum multiplié ensemble.
 
-$$ R_{ref}= \sqrt{R_{min} * R_{max}}$$
-
+$$ 
+R_{ref}= \sqrt{R_{min} * R_{max}}
+$$
