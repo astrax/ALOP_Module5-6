@@ -1,3 +1,3 @@
 # Multiplexage par division de fréquence
-## Montage
+## Montage simple
 ![Montage](RGB-LED_bb.png )
